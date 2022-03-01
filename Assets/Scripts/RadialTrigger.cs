@@ -15,7 +15,7 @@ public class RadialTrigger : MonoBehaviour
 
         double distanceToTarget =
             Math.Sqrt(vectorToTarget.x * vectorToTarget.x + vectorToTarget.y * vectorToTarget.y);
-        
+      
         
         if (distanceToTarget <= radius)
         {
